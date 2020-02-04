@@ -11,8 +11,8 @@ spec:
   ports:
   - name: http
     port: {{ .Values.container.port }}
-    targetPort: {{ .Values.container.port }}
+    nodePort: {{ .Values.container.nodePort }}
     protocol: TCP
   selector:
     app: {{ template "cadvisor.name" . }}
-  type: ClusterIP
+  type: NodePort

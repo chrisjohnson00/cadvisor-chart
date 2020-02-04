@@ -5,6 +5,7 @@ image:
 
 container:
   port: 8080
+  nodePort: 8088
   additionalArgs:
     - --housekeeping_interval=10s                       # kubernetes default args
     - --max_housekeeping_interval=15s
