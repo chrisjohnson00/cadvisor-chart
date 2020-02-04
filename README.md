@@ -1,6 +1,6 @@
 # Cadvisor
 
-A chart for a Cadvisor deployment, forked from https://github.com/code-chris/helm-charts on 2/3/20
+A chart for a Cadvisor deployment, forked from https://github.com/code-chris/helm-charts on 2/3/20.  This probably should just be killed with fire... in favor of kustomize.
 
 Learn more: [https://github.com/google/cadvisor](https://github.com/google/cadvisor)
 
